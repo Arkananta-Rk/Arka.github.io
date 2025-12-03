@@ -1,0 +1,72 @@
+body.dark {
+    background: #000;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Halaman Utama */
+.center-box {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.neon-title {
+    font-size: 50px;
+    color: #00eaff;
+    text-shadow: 0 0 10px #00eaff, 0 0 20px #0094ff;
+}
+
+.neon-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 20px;
+    background: #ff00d4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 0 0 10px #ff00d4, 0 0 25px #ff00d4;
+    transition: 0.2s ease;
+}
+
+.neon-btn:hover {
+    box-shadow: 0 0 20px #ff00d4, 0 0 35px #ff00d4;
+    transform: scale(1.05);
+}
+
+/* Halaman Isi */
+.content-container {
+    max-width: 900px;
+    margin: 50px auto;
+    line-height: 1.7;
+    padding: 20px;
+}
+
+/* Animasi warna berubah */
+.rainbow, .rainbow-text {
+    animation: rainbow 5s infinite linear;
+}
+
+@keyframes rainbow {
+    0% { color: #ff0000; }
+    20% { color: #ffea00; }
+    40% { color: #00ff00; }
+    60% { color: #00eaff; }
+    80% { color: #b700ff; }
+    100% { color: #ff00aa; }
+}
+
+.neon-text {
+    font-size: 32px;
+    text-shadow: 0 0 10px #00fff2, 0 0 25px #00fff2;
+    text-align: center;
+}
+
+.neon-thanks {
+    margin-top: 60px;
+    font-size: 30px;
+    text-align: center;
+    animation: rainbow 4s infinite linear;
+    text-shadow: 0 0 15px #fff;
+}
